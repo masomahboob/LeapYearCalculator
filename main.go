@@ -10,11 +10,11 @@ func main() {
 
 }
 
-// determin if a given year is a leap year
 func leapYearCalc(choice int) []int {
 
 	var result []int
 
+  // determin if a given year is a leap year
 	if choice == 0 {
 
 		var year int
@@ -29,7 +29,7 @@ func leapYearCalc(choice int) []int {
 		} else {
 			fmt.Printf("%d is not a leap year.\n", year)
 		}
-
+    // determin multiple years to be leap year or not
 	} else if choice == 1 {
 
 		startingYear := 2000
